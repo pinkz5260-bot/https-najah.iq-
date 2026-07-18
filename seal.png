@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>النتائج</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Cairo',sans-serif;
+}
+
+body{
+background:#ffffff;
+padding:30px;
+}
+
+.container{
+max-width:750px;
+margin:auto;
+}
+
+.header{
+display:flex;
+justify-content:flex-end;
+align-items:center;
+gap:20px;
+margin-bottom:30px;
+}
+
+.logo{
+flex-shrink:0;
+}
+
+.title{
+text-align:right;
+}
+
+.title h2{
+font-size:38px;
+font-weight:700;
+margin-bottom:8px;
+}
+
+.title p{
+font-size:22px;
+font-weight:600;
+}
+
+.card{
+background:#fff;
+border:1px solid #ececec;
+border-radius:18px;
+overflow:hidden;
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+padding:18px 22px;
+border-bottom:1px solid #ececec;
+font-size:20px;
+}
+
+.row:last-child{
+border:none;
+}
+
+.notice{
+margin-top:25px;
+padding:18px;
+border:2px solid #d74d4d;
+border-radius:15px;
+background:#fff;
+color:#b40000;
+font-size:18px;
+line-height:1.8;
+}
+
+table{
+width:100%;
+margin-top:30px;
+border-collapse:collapse;
+}
+
+th{
+padding:18px;
+font-size:22px;
+border-bottom:2px solid #e9e9e9;
+font-weight:bold;
+}
+
+td{
+padding:20px;
+font-size:20px;
+text-align:center;
+border-bottom:1px solid #ededed;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<div class="logo">
+
+<svg width="120" height="120" viewBox="0 0 120 120">
+
+<circle cx="60" cy="60" r="55"
+fill="#0d5b38"
+stroke="#c8a24a"
+stroke-width="4"/>
+
+<text x="60" y="20"
+text-anchor="middle"
+font-size="10"
+fill="#d9b65a"
+font-family="Cairo">
+دورة التفوق
+</text>
+
+<path d="M60 82
+L60 42
+M60 52
+L52 58
+M60 48
+L68 54
+M60 62
+L50 68
+M60 58
+L70 64
+M60 72
+L52 76
+M60 68
+L68 74"
+stroke="#d9b65a"
+stroke-width="3"
+stroke-linecap="round"/>
+
+<polygon points="58,82 62,82 64,96 60,102 56,96"
+fill="#d9b65a"/>
+
+</svg>
+
+</div>
+
+<div class="title">
+<h2>اللجنة الدائمة للامتحانات العامة</h2>
+<p>الدور الأول</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="row">
+<span>الاسم الرباعي</span>
+<span>زينب علي ناصر صباح</span>
+</div>
+
+<div class="row">
+<span>اسم المدرسة</span>
+<span>مدرسة ثانوية الفجر الجديد</span>
+</div>
+
+<div class="row">
+<span>المديرية</span>
+<span>البصرة</span>
+</div>
+
+<div class="row">
+<span>الفرع</span>
+<span>علمي</span>
+</div>
+
+<div class="row">
+<span>المجموع</span>
+<span>346</span>
+</div>
+
+<div class="row">
+<span>المعدل</span>
+<span>49.28</span>
+</div>
+
+<div class="row">
+<span>النتيجة النهائية</span>
+<span>مكمل</span>
+</div>
+
+</div>
+
+<div class="notice">
+<b>ملاحظة:</b><br>
+هذه النتيجة خاصة بدورة تفوق ولا تعد وثيقة رسمية ويجب الاعتماد على الوثائق الصادرة من الوزارة.
+</div>
+
+<table>
+
+<tr>
+<th>المادة</th>
+<th>الدرجة</th>
+</tr>
+
+<tr>
+<td>التربية الإسلامية</td>
+<td>100</td>
+</tr>
+
+<tr>
+<td>العربية</td>
+<td>88</td>
+</tr>
+
+<tr>
+<td>اللغة الإنجليزية</td>
+<td>مؤجل</td>
+</tr>
+
+<tr>
+<td>الأحياء</td>
+<td>84</td>
+</tr>
+
+<tr>
+<td>الرياضيات</td>
+<td>مؤجل</td>
+</tr>
+
+<tr>
+<td>الكيمياء</td>
+<td>73</td>
+</tr>
+
+<tr>
+<td>الفيزياء</td>
+<td>مؤجل</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
